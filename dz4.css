@@ -1,21 +1,6 @@
-#qwe{
-    background-color: rgb(197, 228, 83);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    border-collapse: collapse;
-    padding-top: 10px;
-    
-}
-#asd{
-    background-color: rgba(0, 0, 0, 0.719);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    border-collapse: collapse;
-    padding-left: 0px;
-    padding-right:0px;
-}
+
 ol{
-    background-color: rgba(165, 42, 42, 0.568);
+    background-color: rgba(250, 133, 133, 0.568);
     list-style-type: none;
     padding: 2px 10px 10px 10px;
     color: rgb(200, 200, 255);
@@ -36,6 +21,8 @@ li::before{
     content: counter(number);
     counter-increment: number
 }
-body{
-    
-}
+#box {
+    width:600px;
+    justify-content: center;
+    align-items:center;
+  }
