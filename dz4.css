@@ -6,6 +6,7 @@ body{
     width: 1920px;
     height: 5155px;
     background-color: rgba(22, 40, 49, 1);
+    color: white;
 
 }
 /* меню */
@@ -14,7 +15,6 @@ body{
     height: 60px;
     display: flex;
     margin: 30px auto 0px auto;
-
  }
  header img{
     justify-content: flex-start;
@@ -33,4 +33,26 @@ body{
     color: white;
     background-color: rgba(1, 138, 190, 1);
     border-radius: 5px;
+ }
+ /* .................Основной контент ..................*/
+ /* Укрепление здоровья */
+ .heads_logo{
+    width: 1296px;
+    height: 600px;
+    background-image: url(regreg.png);
+    margin: 40px auto 0 auto;
+    text-align: center;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    
+ }
+ .heads_logo p{
+    width: 241px;
+    height: 34px;
+    font-size: 24px;
+    margin: 200px auto 0 auto;
+ }
+ .heads_logo h1{
+    margin-top: 20px;
+    font-size: 60px;
  }
