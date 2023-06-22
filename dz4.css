@@ -1,28 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1920px;
+    height: 5155px;
+    background-color: rgba(22, 40, 49, 1);
 
-ol{
-    background-color: rgba(250, 133, 133, 0.568);
-    list-style-type: none;
-    padding: 2px 10px 10px 10px;
-    color: rgb(200, 200, 255);
-    counter-reset: number;
 }
-li{
-    background-color: rgba(165, 42, 42, 0.658);
-    margin-top: 10px;
-    border-radius: px;
-}
-span{
-    background-color: rgba(165, 42, 42, 0.856);
-    margin-left: 5px;
-    border-radius: px;
-}
-li::before{
-    margin-left: 4px;
-    content: counter(number);
-    counter-increment: number
-}
-#box {
-    width:600px;
-    justify-content: center;
-    align-items:center;
-  }
+/* меню */
+ header{
+    width: 1298px;
+    height: 60px;
+    display: flex;
+    margin: 30px auto 0px auto;
+
+ }
+ header img{
+    justify-content: flex-start;
+ }
+ nav{
+    margin: 30px auto 0px auto;
+ }
+ nav a{
+    color: white;
+    margin-left: 50px;
+    text-decoration: none;
+ }
+ header button{
+    justify-content: flex-end;
+    padding: 9px 15px 9px 15px;
+    color: white;
+    background-color: rgba(1, 138, 190, 1);
+    border-radius: 5px;
+ }
