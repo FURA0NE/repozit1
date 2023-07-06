@@ -1,0 +1,53 @@
+.menu{
+ display: flex;
+ list-style: none;
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 0px;
+ gap: 50px;
+ position: absolute;
+ width: 655px;
+ height: 19px;
+ left: 226px;
+ top: 19px;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+li a{
+    margin-left: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.asd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 15px;
+    gap: 10px;
+    position: absolute;
+    width: 155px;
+    height: 36px;
+    left: 1227px;
+    top: 33px;
+    background: #018ABE;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zxc {
+    position: absolute;
+width: 336px;
+height: 59px;
+left: 792px;
+top: 890px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 140%;
+text-align: center;
+color: aliceblue;
+
+}
+
