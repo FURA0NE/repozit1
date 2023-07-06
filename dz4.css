@@ -57,4 +57,15 @@ body{
     font-size: 60px;
  }
  /*Сеансы RitmStyle */
- 
+ .siance{
+   width: 241px;
+   height: 34px;
+   font-size: 24px;
+   margin: 200px auto 0 auto;
+ }
+ .price{
+   width: 241px;
+   height: 34px;
+   font-size: 24px;
+   margin: 200px auto 0 auto;
+ }

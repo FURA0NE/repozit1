@@ -1,0 +1,26 @@
+.a{
+    background-color: #003fa3;
+    border-radius: 5px;
+    padding: 15px 25px;
+    transition: background-color 1s linear,  height 1s linear;
+   }
+   .a:hover{
+    background-color: #ff00ea;
+    width: 300px;
+   }
+   .el{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: background-color 1s ease-in,  height 1s ease-in;
+   }
+   .el:hover{
+    background-color: blue;
+    height: 400px;
+   }
+   .q{
+    margin: 100px auto 0 auto;
+    background-color: #ff00ea;
+    height: 200px;
+    width: 200px;
+   }
